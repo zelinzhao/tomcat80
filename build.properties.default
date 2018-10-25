@@ -79,7 +79,8 @@ trydownload.httpusecaches=true
 # Please note this path must be absolute, not relative,
 # as it is referenced with different working directory
 # contexts by the various build scripts.
-base.path=${user.home}/tomcat-build-libs
+base.path=/home/zzl/study/git/tomcat-build-libs
+#${user.home}/tomcat-build-libs
 
 compile.source=1.7
 compile.target=1.7

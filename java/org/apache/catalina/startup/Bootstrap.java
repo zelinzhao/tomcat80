@@ -130,7 +130,7 @@ public final class Bootstrap {
     /**
      * Daemon reference.
      */
-    private Object catalinaDaemon = null;
+    private Object catalinaDaemon = null; /**zzl:org.apache.catalina.startup.Catalina*/
 
 
     ClassLoader commonLoader = null;

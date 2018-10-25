@@ -298,10 +298,10 @@ public final class ClassLoaderFactory {
 
 
     public enum RepositoryType {
-        DIR,
-        GLOB,
-        JAR,
-        URL
+        DIR,  /**zzl: all resources in one directory, including .class, .jar and other resources*/
+        GLOB, /**zzl: all jar files in one directory, only jar files*/
+        JAR, /**zzl: single jar file*/
+        URL /**zzl: single jar file from web*/
     }
 
     public static class Repository {
